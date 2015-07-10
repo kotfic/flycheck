@@ -332,11 +332,18 @@ functions for format string problems.
 
 @enumerate
 @item
+Either
+@itemize
+@item
+@flc{haskell-stack-ghc} (syntax and type checker with
+@uref{https://github.com/commercialhaskell/stack,Stack}), or
+@item
 @flyc{haskell-ghc} (syntax and type checker with
-@uref{http://www.haskell.org/ghc/,GHC}), and
+@uref{http://www.haskell.org/ghc/,GHC}),
+@end itemize
 
 @item
-@flyc{haskell-hlint} (style checker with
+and @flyc{haskell-hlint} (style checker with
 @uref{https://github.com/ndmitchell/hlint,hlint})
 @end enumerate
 
